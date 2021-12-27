@@ -1,0 +1,37 @@
+#+TITLE: Task Manager
+
+
+* Functional Requirements
+** CRUD Task
+** Action search
+ search for any thing in the system
+ - requird to work with command pattern
+** Task Search
+ - simple search : type any thing
+ - advanced search : search language similar to sql
+** backward and forward
+ to avoid using the browser back- and forward and loosing data
+
+** Task Filter
+ - apply filter on task properties
+ - save filter for later use
+ - search saved filters
+ - apply saved filter
+** customization activity bar
+ - icon for the main pages
+ - icon as shortcuts for the most used actions
+** customization keyboard shortcuts
+ - required to define commands
+ - the ability to map any key-binding to a command
+** modern authorization : claim based (policy ) instead of roles
+** Tabs (Maybe)
+** Action Button
+ - position fixed
+ - when clicked show list of user defined actions (shortcuts)
+ - Very customization
+
+** export/import configuration
+ - the ability to export user configuration and import it in another
+   user account
+
+* Architecture
